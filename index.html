@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Manoj — Web Designer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <header class="max-w-4xl mx-auto p-6">
+    <nav class="flex items-center justify-between">
+      <div class="text-xl font-semibold">Manoj — Web Design</div>
+      <div class="text-sm">
+        <a href="#work" class="mr-4">Work</a>
+        <a href="#services" class="mr-4">Services</a>
+        <a href="#contact" class="underline">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="max-w-4xl mx-auto p-6">
+    <section class="py-12">
+      <h1 class="text-4xl font-extrabold">Hi, I’m Manoj — I build clean, convert-focused websites for small businesses.</h1>
+      <p class="mt-4 text-lg">Quick, modern websites that help local businesses get more calls and bookings.</p>
+      <div class="mt-6">
+        <a href="#contact" class="inline-block bg-blue-600 text-white px-4 py-2 rounded">Get a free mockup</a>
+      </div>
+    </section>
+
+    <section id="work" class="py-8">
+      <h2 class="text-2xl font-bold">Selected Work</h2>
+      <div class="mt-4 space-y-4">
+        <!-- Add your project cards here -->
+        <div class="p-4 bg-white rounded shadow">
+          <div class="font-semibold">Restaurant mockup</div>
+          <div class="text-sm text-gray-600">1-page menu + contact → increase bookings</div>
+          <a href="#" class="text-sm text-blue-600">View live</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-8">
+      <h2 class="text-2xl font-bold">Services</h2>
+      <ul class="mt-4 space-y-2 list-disc ml-6">
+        <li>Starter site — 1–3 pages (Home, Contact, About)</li>
+        <li>Business site — 4–6 pages + CMS</li>
+        <li>Landing pages for ads</li>
+        <li>Maintenance & monthly updates</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="py-8">
+      <h2 class="text-2xl font-bold">Contact</h2>
+      <p class="mt-2">Send a message — or use the form: <a href="YOUR_GOOGLE_FORM_LINK" class="text-blue-600 underline">Contact form</a></p>
+      <p class="mt-4">Or email: <a href="mailto:manoj.webdesigner@gmail.com" class="text-blue-600">manoj.webdesigner@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="max-w-4xl mx-auto p-6 text-sm text-gray-600">
+    © <span id="year"></span> Manoj — Web Design
+  </footer>
+
+  <script>document.getElementById('year').innerText=new Date().getFullYear()</script>
+</body>
+</html>
